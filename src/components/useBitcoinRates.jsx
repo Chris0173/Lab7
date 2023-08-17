@@ -37,7 +37,7 @@ const useBitcoinRates = () => {
     fetchBitcoinPrice();
 
     return () => {
-      // Cleanup if needed
+
     };
   }, [currency]);
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import useBitcoinRates from './useBitcoinRates'; // Import the custom hook as default
+import useBitcoinRates from './useBitcoinRates'; 
 
 const currencies = ['USD', 'AUD', 'NZD', 'GBP', 'EUR', 'SGD'];
 

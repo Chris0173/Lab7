@@ -1,8 +1,8 @@
 import React from 'react';
-import { useEmojiContext } from './EmojiContext'; // Import the context
+import { useEmojiContext } from './EmojiContext'; 
 
 const Emoji = () => {
-  const { isHappy, toggleMood } = useEmojiContext(); // Use the context
+  const { isHappy, toggleMood } = useEmojiContext(); 
 
   return (
     <div>
